@@ -1,9 +1,8 @@
 # Nerd Font-Friendly nvim-nonicons
 
 ## This is a fork
-This is a fork of the work done by [yamatsum](https://github.com/yamatsum/nvim-nonicons).
 
-The only difference between this branch and the original is that the glyph mappings have been updating so as to not conflict with Nerd Font glyphs.
+The only difference between this branch and [the original](https://github.com/yamatsum/nvim-nonicons) is that the glyph mappings have been updated so as to not conflict with Nerd Font glyphs.
 
 See also: [nonicons](https://github.com/arnamak/nonicons)
 
@@ -30,7 +29,7 @@ You'll need to load the `nonicons` font in your terminal. Different terminal emu
 
 See the instructions at [nonicons](https://github.com/arnamak/nonicons) for more details.
 
-Once you've done that, this plugin will enable to `get` icons within your neovim configuration as such:
+Once you've done that, this plugin will enable you to `get` icons within your neovim configuration as such:
 ```lua
 local icons = require "nvim-nonicons"
 
